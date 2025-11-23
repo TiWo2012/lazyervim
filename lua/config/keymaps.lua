@@ -4,4 +4,4 @@
 local m = vim.keymap
 
 m.set("i", "jk", "<esc>")
-m.set("n", "<leader>w", ":w")
+m.set("n", "<leader>w", "<cmd>w<CR>")
